@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* display: flex; */
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+.top-container {
+  text-align: left;
+  padding: 160px 50px 0 270px;
+
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  position: relative;
+  width: 80%;
+  max-width: 400px;
+  padding: 20px 0 0 20px;
+  margin: 20px 0 100px 550px;
+  background-color: white;
+  box-shadow: 0 0 5px #999;
+  border-radius: 10px;
+
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 10px;
+  border-radius: 7px;
+  width: 76%;
+}
+
+.form-signin input[type="password"] {
+
+  margin-bottom: 10px;
+  border-radius: 7px;
+  width: 76%;
+}
+
+.btn {
+  width: 95%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.btn-success {
+  background-color: #42b72a;
+  width: auto;
+  height: 45px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-left: 25%;
+}
+
+.facebook {
+  color: #1877f2;
+  width: 15%;
+  font-size: 60px;
+  font-weight: bold;
+}
+.connect {
+  font-weight: normal;
+  width: 70%;
+  font-size: 28px;
+}
+p {
+  font-size: 14px;
+  color: black;
+  text-align: center;
+}
+h5 {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 0;
+  padding-left: 0px;
+  color: #1877f2;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.form-floating {
+  width: 125%;
+}
+h1 {
+  margin: 0;
+}
+.facebookdiv{
+  position: absolute;
+}
